@@ -109,10 +109,10 @@
 
             var code = `
             document.getElementsByClassName("btn btn-primary text-uppercase sans-bold position-absolute")[0].click();
-            document.getElementsByClassName("form-control text-left sans-bold")["first_name"].value = ${fname};
-            document.getElementsByClassName("form-control text-left sans-bold")["last_name"].value = ${lname};
+            document.getElementsByClassName("form-control text-left sans-bold")["first_name"].value = "${fname}";
+            document.getElementsByClassName("form-control text-left sans-bold")["last_name"].value = "${lname}";
             document.getElementsByClassName("form-control text-left sans-bold")["affiliation"].value = "CCNHS";
-            document.getElementsByClassName("form-control text-left sans-bold")["email"].value = ${email};
+            document.getElementsByClassName("form-control text-left sans-bold")["email"].value = "${email}";
             document.getElementsByClassName("custom-control-input")["customCheck2"].checked = true;
             document.getElementsByClassName("btn btn-primary text-uppercase position-relative")[0].click(); `;
 
